@@ -1,6 +1,8 @@
 // this is a test file
 // lets test the conflicts
 #include <iostream>
+#include <Engine.h>
+
 struct sendHelp {
 
 	void print() {
@@ -9,9 +11,8 @@ struct sendHelp {
 };
 
 int main() {
-	sendHelp s;
-
-	s.print();
+	Engine e;
+	e.print();
 
 	getchar();
 
